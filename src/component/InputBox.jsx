@@ -1,6 +1,6 @@
 import React, { useId } from "react";
 
-const  InputBox = ({
+const InputBox = ({
   label,
   amount,
   onAmountChange,
@@ -11,7 +11,7 @@ const  InputBox = ({
   currencyDisable = false,
 
   className = "",
-})=> {
+}) => {
   const amountInputId = useId();
 
   return (
@@ -52,6 +52,6 @@ const  InputBox = ({
       </div>
     </div>
   );
-}
+};
 
-export default InputBox
+export default InputBox;
